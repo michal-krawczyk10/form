@@ -1,1 +1,17 @@
 @import 'normalize';
+
+$color1: #493657;
+$color2: #FFF8F0;
+$color3: #F4D06F;
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+	text-decoration: none;
+}
+
+html {
+	box-sizing: border-box;
+	font-family: monospace;
+}

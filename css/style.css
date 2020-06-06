@@ -337,4 +337,16 @@ template {
   display: none;
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
 /*# sourceMappingURL=style.css.map */
