@@ -15,3 +15,21 @@ html {
 	box-sizing: border-box;
 	font-family: monospace;
 }
+
+body {
+  background-color: $color1;
+  color: $color2;
+}
+
+.main {
+  max-width: 1600px;
+  margin: 64px auto;
+  min-height: calc(100vh - 128px);
+  padding: 16px 32px;
+  text-align: center;
+}
+
+
+.article {
+  
+}
