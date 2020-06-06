@@ -12,13 +12,73 @@
 			<article class="article">
 				<h1>Forms forms forms</h1>
 				<form class="form">
-					<div>
+					<div class="form__element">
 						<label for="firstName">your name: </label
-						><input class="form__item" type="text" placeholder="enter your name" name="firstName" id="firstName" />
+						><input
+							class="form__item"
+							type="text"
+							placeholder="enter your name"
+							name="firstName"
+							id="firstName"
+						/>
 					</div>
-					<div>
+					<div class="form__element">
 						<label for="lastName">your last name: </label
-						><input class="form__item" value="random" name="lastName" id="lastName" />
+						><input
+							class="form__item"
+							value="random"
+							placeholder="enter your last name"
+							name="lastName"
+							id="lastName"
+						/>
+					</div>
+					<fieldset class="form__element">
+						<legend>Adress</legend>
+						<div class="form__element">
+							<label for="streetName">street name: </label
+							><input
+								class="form__item"
+								type="text"
+								placeholder="your street"
+								name="streetName"
+								id="streetName"
+							/>
+						</div>
+						<div class="form__element">
+							<label for="cityName">city: </label
+							><input
+								class="form__item"
+								type="text"
+								placeholder="your city"
+								name="cityName"
+								id="cityName"
+							/>
+						</div>
+					</fieldset> 
+					<fieldset class="form__element">
+						<legend>favourite animal</legend>
+						<div class="form__element">
+							<label
+								><input name="animal" id="dog" type="radio" value="dog" />
+								Doggo</label
+							>
+						</div>
+						<div class="form__element">
+							<label
+								><input name="animal" type="radio" value="cat" /> Kitten</label
+							>
+						</div>
+						<div class="form__element">
+							<label
+								><input name="animal" type="radio" value="cat" /> Birdo</label
+							>
+						</div>
+					</fieldset>
+					<div class="form__element">
+						<label
+							><input name="agreement" checked type="checkbox" value="agree" /> I
+							agree</label
+						>
 					</div>
 				</form>
 			</article>
